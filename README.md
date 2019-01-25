@@ -4,7 +4,7 @@
 - [Webpage](https://github.com/anveshrokanlawar/aboutme/blob/master/README.md)
 - [Source](https://anveshrokanlawar.github.io/aboutme/)
 ## About
-This repository will be used to get started with development of webpages using the Markdown language and to get familiarize to Github for publish my webcontent.
+*This repository will be used to get started with development of webpages using the Markdown language and to get familiarize to Github for publish my webcontent*.
 ## Recommended Tools
 - [Tortoisegit](https://tortoisegit.org/)-TortoiseGit is a Windows Shell Interface to Git and based on TortoiseSVN.Using TortoiseGit we can maintain our code written by multiple programmers in one common Repository.
 - [Javascript](https://www.javascript.com/)-It is a Client side programming language which is used to design an interactive webpages that behave upon the occurance of events
