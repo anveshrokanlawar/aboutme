@@ -30,11 +30,13 @@ img {
   }
   
 aside{
-    border-style:double;
+    border-style: outset;
     padding: 1em;
     margin: 1em;
-    background-color:#0f40485c;
+    border-color: chocolate;
+    background-color: #0f40485c;
     font-style: italic;
+    border-radius: 8%;
  }
  table, th, td {
     border: 2.5px solid black;
