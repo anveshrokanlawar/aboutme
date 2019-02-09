@@ -17,6 +17,7 @@
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="./distance.js"></script>
 </head>
+
 <body class="background" background="img(11).jpg">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="index.html">Anvesh Rokanlawar</a>
@@ -44,20 +45,21 @@
     </nav>
     <hr>
     <h1>Calculate Distance travelled</h1>
-            <form>
-                <div style="margin-bottom:2%;">
-               <p> Enter the speed of the car in km/hr :</p> <input style="width:20%;" type="number" id="speed" name="speed" />
-                </div>
-               <div style="margin-bottom:2%;">
-               <p> Enter the Time travelled in hrs: </p><input style="width:20%;" type="number" id="time" name="time" />
-               </div>
-               <input type="button" style="width:20%;" value="Distance" onclick="Calculate();" />
-            </form>
-            <p>Distance Travelled is: <br>
-                <span id = "result">
-                </span>
-                </p>
-                <hr>
-<footer> &copy; 2019 Anvesh Rokanlawar</footer>
+    <form>
+        <div style="margin-bottom:2%;">
+            <p> Enter the speed of the car in km/hr :</p> <input style="width:20%;" type="number" id="speed" name="speed" />
+        </div>
+        <div style="margin-bottom:2%;">
+            <p> Enter the Time travelled in hrs: </p><input style="width:20%;" type="number" id="time" name="time" />
+        </div>
+        <input type="button" style="width:20%;" value="Distance" onclick="Calculate();" />
+    </form>
+    <p>Distance Travelled is: <br>
+        <span id="result">
+        </span>
+    </p>
+    <hr>
+    <footer> &copy; 2019 Anvesh Rokanlawar</footer>
 </body>
+
 </html>
