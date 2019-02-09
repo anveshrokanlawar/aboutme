@@ -13,6 +13,8 @@ float: left;
 border-style: solid;
 padding: 2%;
 width:72%;
+font-family: 'Times New Roman', Times, serif;
+font-style:italic;
 }
 h1{
     border-style: inset;
@@ -28,11 +30,19 @@ img {
   }
   
 aside{
-    border-style: solid;
+    border-style:double;
     padding: 1em;
     margin: 1em;
     background-color:#0f40485c;
+    font-style: italic;
  }
+ table, th, td {
+    border: 2.5px solid black;
+  }
+  td {
+    height: 50px;
+    vertical-align: bottom;
+  }
 #section2{
     float: right;
     clear: both;
@@ -42,6 +52,8 @@ aside{
     width: 60%;
     margin-right: 2em;
     margin-bottom:4em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
  }
 #section3{
     clear: both;
@@ -50,6 +62,7 @@ aside{
     padding: 2%;
     width: 60%;
     margin-left: 3em;
+    font-style: italicl;
 
  }
 .dp
@@ -72,7 +85,7 @@ label{
     margin-left:4%;
 
 }
-#subject
+#Query
 {
     height:10%;
     padding: 3em;
