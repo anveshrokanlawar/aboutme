@@ -1,8 +1,8 @@
 # aboutme
 
 ## Repository Links
-- [Webpage](https://github.com/anveshrokanlawar/aboutme/blob/master/README.md)
-- [Source](https://anveshrokanlawar.github.io/aboutme/)
+- [Webpage](https://anveshrokanlawar.github.io/aboutme/)
+- [Source](https://github.com/anveshrokanlawar/aboutme/blob/master/README.md)
 
 ## About
 *This repository will be used to get started with development of webpages using the Markdown language and to get familiarize to Github for publish my webcontent*.
