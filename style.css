@@ -1,11 +1,13 @@
-body{
+body
+{
     min-height: 50em;
     margin-top: 4em;
 }
 
-.flexformat{
-    display:flex;
-    }
+.flexformat
+{
+    display:flex;    
+}
 .section1
 {
 margin:3%;
