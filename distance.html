@@ -36,12 +36,13 @@
     <h1>Calculate Distance travelled</h1>
     <form>
         <div style="margin-bottom:2%;">
-            <p> <b>Enter the speed of the car in km/hr :</p> <input style="width:20%;" type="number" id="speed" name="speed" />
+            <p> <b>Enter the speed of the car in km/hr :</p> <input style="width:20%;" type="text" id="speed" name="speed" />
         </div>
         <div style="margin-bottom:2%;">
-            <p> <b>Enter the Time travelled in hrs: </p><input style="width:20%;" type="number" id="time" name="time" />
+            <p> <b>Enter the Time travelled in hrs: </p><input style="width:20%;" type="text" id="time" name="time" />
         </div>
-        <input type="button" style="width:20%;" value="Distance" onclick="Calculate();" />
+        <input type="button" style="width:20%;" value="Distance" onclick="Calculate(speed,time);" />
+        <input type="button" id="clear" value="Clear values" style="width: 15%;"/>
     </form>
     <p style="color: darkred"><b>Distance Travelled is:
         <span id="result">
@@ -49,5 +50,12 @@
     </p>
     <hr style="MARGIN-TOP: 13%">
     <footer> &copy; 2019 Anvesh Rokanlawar</footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
