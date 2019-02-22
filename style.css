@@ -1,8 +1,21 @@
 body
 {
-    min-height: 50em;
-    margin-top: 4em;
+    height:100%;
+    padding-top: 5rem;
+    
 }
+.bg { 
+    /* The image used */
+    background-image: url("img(11).jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .flexformat
 {
@@ -36,7 +49,7 @@ aside{
     padding: 1em;
     margin: 1em;
     border-color: chocolate;
-    background-color: #0f40485c;
+    background-color: darkcyan;
     font-style: italic;
     border-radius: 8%;
  }
@@ -66,7 +79,9 @@ aside{
     padding: 2%;
     width: 60%;
     margin-left: 3em;
-    font-style: italicl;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lavenderblush;
 
  }
 .dp
@@ -80,7 +95,7 @@ input{
     padding:-1%;
 }
 label{
-    width:15%;
+    width:18%;
 }
 .formstyle
 {
@@ -94,6 +109,6 @@ label{
     height:10%;
     padding: 3em;
     width: 100%;
-    margin-left: 4%;
+    margin-left: 6%;
     margin-top: -6%; 
 }

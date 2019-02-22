@@ -1,33 +1,29 @@
 <html>
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
     <meta name="author" content="Anvesh Rokanlwar">
     <meta charset="UTF8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <title>Distance calculator</title>
     <link rel='stylesheet' href='./style.css' />
+    <title>Distance calculator</title>
     <script src="./distance.js"></script>
 </head>
-<body class="background" background="img(11).jpg">
+<body class="bg">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html">Aboutme</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="distance.html">Distance calculator</a>
                 </li>
             </ul>
@@ -37,22 +33,21 @@
             </form>
         </div>
     </nav>
-    <hr>
     <h1>Calculate Distance travelled</h1>
     <form>
         <div style="margin-bottom:2%;">
-            <p> Enter the speed of the car in km/hr :</p> <input style="width:20%;" type="number" id="speed" name="speed" />
+            <p> <b>Enter the speed of the car in km/hr :</p> <input style="width:20%;" type="number" id="speed" name="speed" />
         </div>
         <div style="margin-bottom:2%;">
-            <p> Enter the Time travelled in hrs: </p><input style="width:20%;" type="number" id="time" name="time" />
+            <p> <b>Enter the Time travelled in hrs: </p><input style="width:20%;" type="number" id="time" name="time" />
         </div>
         <input type="button" style="width:20%;" value="Distance" onclick="Calculate();" />
     </form>
-    <p>Distance Travelled is: <br>
+    <p style="color: darkred"><b>Distance Travelled is:
         <span id="result">
         </span>
     </p>
-    <hr>
+    <hr style="MARGIN-TOP: 13%">
     <footer> &copy; 2019 Anvesh Rokanlawar</footer>
 </body>
 </html>

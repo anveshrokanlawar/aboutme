@@ -11,19 +11,18 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body class="background" background="img(11).jpg">
+<body class="bg">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html">Aboutme</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
@@ -36,27 +35,30 @@
             </form>
         </div>
     </nav>
-    <hr>
     <p>
-        <h1>Please enter the contact details:</h1>
+        <h1>Please enter the contact Information:</h1>
     </p>
     <div class="formstyle">
         <form>
             <div>
-                <label for="fname">First Name</label>
+                <label for="fname"><b>First Name</label>
                 <input type="text" id="fname" name="firstname">
             </div>
             <div>
-                <label for="lname">Last Name</label>
+                <label for="lname"><b>Last Name</label>
                 <input type="text" id="lname" name="lastname">
             </div>
             <div>
-                <label for="email">Email</label>
+                <label for="email"><b>Email</label>
                 <input type="text" id="email" name="email">
             </div>
             <div>
+                <label for="phonenumber"><b>Phone Number</label>
+                <input type="text" id="phonenumber" name="phonenumber">
+            </div>
+            <div>
                 <div>
-                    <label for="Query">Query</label></div>
+                    <label for="Query"><b>Query</label></div>
                 <div id="Query"> <textarea id="Query" name="Query"></textarea></div>
             </div>
             <h5><input type="submit" onclick="location.href='contact.html';" value="Submit"></h5>
@@ -79,6 +81,7 @@
             </li>
         </ul>
         <br>
+        <hr>
     </div>
 </body>
 <footer> &copy; 2019 Anvesh Rokanlawar</footer>
