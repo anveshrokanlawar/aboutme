@@ -7,8 +7,8 @@
         crossorigin="anonymous">
     <link rel='stylesheet' href='./style.css' />
     <title>Distance calculator</title>
-    <script src="./distance.js"></script>
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./distance.js"></script>
 </head>
 <body class="bg">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -45,22 +45,28 @@
         <div style="margin-bottom:2%;">
             <p> <b>Enter the Time travelled in hrs: </p><input style="width:20%;" type="text" id="time" name="time" value="0"/>
         </div>
-        <input type="button" style="width:20%;" value="Distance" onclick="Calculate(speed,time)"/>
+    <input type="button" style="width:20%;" value="Distance" id="content" onclick="Calculate(speed,time)" onmouseover="loadDoc()" />
         <button type="reset" value="Reset">Clear values</button>
     </form>
     <p style="color: darkred"><b>Distance Travelled is:
         <span id="result">
         </span>
     </p>
+    <p id="demo"></p>
     <hr style="MARGIN-TOP: 13%">
     <footer> &copy; 2019 Anvesh Rokanlawar</footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 </html>
