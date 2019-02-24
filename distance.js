@@ -1,3 +1,8 @@
+$(document).ready(function(){
+       $("#content").mouseleave(function () {
+              $("#demo").hide();
+       });
+});
 function Calculate(speed, time) {
        localStorage.setItem("num1", parseInt(document.getElementById("speed").value));
        localStorage.setItem("num2", parseInt(document.getElementById("time").value));
@@ -11,6 +16,7 @@ function Calculate(speed, time) {
        }
 }
 function loadDoc() {
+       $("#demo").show();
        var xhttp = new XMLHttpRequest();
        xhttp.onreadystatechange = function () {
               if (this.readyState == 4 && this.status == 200) {
@@ -22,8 +28,3 @@ function loadDoc() {
        xhttp.send();
 }
 
-$(document).ready(function () {
-       $("content").mouseout(function () {
-              $("demo").hide();
-       });
-});
